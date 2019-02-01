@@ -212,7 +212,7 @@ Person{id=1, name='kangkang', age=23, password='null'}
 
 小贴士😊
 
-并不是只要被transient修饰就一定不能被序列化，如果该类实现的是Externalizable接口而不是Serializable接口的话，那么同样能够被序列化。因为Externalizable接口不再像Serializable那样自动序列化接口，而是人为指定想要序列化的变量。
+并不是只要被transient修饰就一定不能被序列化，如果该类实现的是Externalizable接口而不是Serializable接口的话，那么同样能够被序列化。因为Externalizable接口不再像Serializable那样自动序列化接口，而是人为指定想要序列化的变量。还要注意的是transient关键字只能用来修饰字段，不能用来修饰方法
 
 
 
